@@ -15,8 +15,8 @@ importers:
         specifier: ^19.8.1
         version: 19.8.1
       '@phaicom/eslint-config':
-        specifier: ^0.4.2
-        version: 0.4.2(@vue/compiler-sfc@3.5.18)(eslint-plugin-better-tailwindcss@3.7.3(eslint@9.32.0(jiti@2.5.1))(tailwindcss@4.1.11))(eslint-plugin-format@1.0.1(eslint@9.32.0(jiti@2.5.1)))(jiti@2.5.1)(typescript@5.9.2)
+        specifier: ^0.4.3
+        version: 0.4.3(@vue/compiler-sfc@3.5.18)(eslint-plugin-better-tailwindcss@3.7.3(eslint@9.32.0(jiti@2.5.1))(tailwindcss@4.1.11))(eslint-plugin-format@1.0.1(eslint@9.32.0(jiti@2.5.1)))(jiti@2.5.1)(typescript@5.9.2)
       eslint:
         specifier: ^9.32.0
         version: 9.32.0(jiti@2.5.1)
@@ -305,8 +305,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@phaicom/eslint-config@0.4.2':
-    resolution: {integrity: sha512-oREkS4o092vgic+peXJgcqH6jeSDVaZwKn8WajzZmEp/Hp/45vb5gtmUCfhu8p9nW0m5jKNHvHMWeiYWR0TJ9A==}
+  '@phaicom/eslint-config@0.4.3':
+    resolution: {integrity: sha512-tDCI0jTVoys4s5rfUX2ue8249PPmhIQrkWfVGBFuPu9vQQhjED4bsiJoVyq8YlaGaczMbSB87cWgqAdXeUwmjw==}
     engines: {node: '>=20'}
     peerDependencies:
       eslint-plugin-better-tailwindcss: '>=3.7.2'
@@ -2247,7 +2247,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@phaicom/eslint-config@0.4.2(@vue/compiler-sfc@3.5.18)(eslint-plugin-better-tailwindcss@3.7.3(eslint@9.32.0(jiti@2.5.1))(tailwindcss@4.1.11))(eslint-plugin-format@1.0.1(eslint@9.32.0(jiti@2.5.1)))(jiti@2.5.1)(typescript@5.9.2)':
+  '@phaicom/eslint-config@0.4.3(@vue/compiler-sfc@3.5.18)(eslint-plugin-better-tailwindcss@3.7.3(eslint@9.32.0(jiti@2.5.1))(tailwindcss@4.1.11))(eslint-plugin-format@1.0.1(eslint@9.32.0(jiti@2.5.1)))(jiti@2.5.1)(typescript@5.9.2)':
     dependencies:
       '@antfu/eslint-config': 4.19.0(@vue/compiler-sfc@3.5.18)(eslint-plugin-format@1.0.1(eslint@9.32.0(jiti@2.5.1)))(eslint@9.32.0(jiti@2.5.1))(typescript@5.9.2)
       eslint: 9.32.0(jiti@2.5.1)
