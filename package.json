@@ -1,0 +1,43 @@
+{
+  "name": "super-react",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "description": "A collection of several React application",
+  "author": "Reawpai Chunsoi <reawpai.chunsoi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix --cache"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@phaicom/eslint-config": "^0.4.2",
+    "eslint": "^9.32.0",
+    "eslint-plugin-better-tailwindcss": "^3.7.3",
+    "eslint-plugin-format": "^1.0.1",
+    "lint-staged": "^16.1.2",
+    "simple-git-hooks": "^2.13.1",
+    "turbo": "^2.5.5",
+    "typescript": "^5.9.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "npx commitlint --edit ${1}"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,vue,json}": [
+      "eslint --fix --cache"
+    ]
+  }
+}
